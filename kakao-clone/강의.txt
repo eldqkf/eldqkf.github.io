@@ -23,9 +23,12 @@ self-closing tag : 닫는 tag가 없다.
 HTML 문서의 규칙
 1. <!DOCTYPE html>로 시작 - 브라우저가 HTML 문서로 인지
 2. <html> ~ </html> 사이에 코드를 입력해야 함.
-3. <head> part - invisible setting
+3. <head> part - invisible setting, meta data
 호기심 : 정말로 invisible한 것들만 들어갈까?
 실험 : <h1> + html 문법에 맞지 않는 무작위 영어를 <head>에 작성
 결과 : 브라우저에서 검사 결과, 두 요소 모두 <body>로 이동됨
 결론 : head 태그에는 invisible한 것들만 들어간다.
 4. <body> part - visible content
+
+<head>에는 검색 엔진에 정보를 주는 태그와 속성이 많이 있다.
+ex. <html lang="en"> : 우리 사이트는 영어를 사용해요!
