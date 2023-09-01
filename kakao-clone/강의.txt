@@ -6,10 +6,6 @@
 그런데 어디로 이동하는지에 대한 정보가 없으면, 무의미.
 그것을 href attribute으로 보충해준다.
 
-* html은 잘못된 문법을 교정해주지 않는다!
--> 없는 속성을 아무 태그에나 적용하더라도, 작동한다.
-브라우저가 이해를 못할 뿐. ex. <h1 money="good">hello</h1>
-
 어떤 attribute는 여러 tag에서 사용 가능하고,
 나머지는 그렇지 않다.
 -> 예를 들어, href 속성은 a 태그에서만 사용.
@@ -17,3 +13,15 @@
 self-closing tag : 닫는 tag가 없다.
 -> 왜? : content를 attribute에서 실현
 -> ex. <img src="https://...">
+
+* html은 잘못된 문법을 교정해주지 않는다!
+-> 없는 속성을 아무 태그에나 적용하더라도, 작동한다.
+브라우저가 이해를 못할 뿐. ex. <h1 money="good">hello</h1>
+
+#2.5 More Tage and Head
+
+HTML 문서의 규칙
+1. <!DOCTYPE html>로 시작 - 브라우저가 HTML 문서로 인지
+2. <html> ~ </html> 사이에 코드를 입력해야 함.
+3. <head> part - invisible setting
+4. <body> part - visible content
