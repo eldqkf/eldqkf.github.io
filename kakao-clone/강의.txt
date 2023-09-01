@@ -32,3 +32,4 @@ HTML 문서의 규칙
 
 <head>에는 검색 엔진에 정보를 주는 태그와 속성이 많이 있다.
 ex. <html lang="en"> : 우리 사이트는 영어를 사용해요!
+<meta property="og:img" content="http://~~~~~.jpg"> : 카카오톡에 사이트를 공유시 보이는 대표 이미지
