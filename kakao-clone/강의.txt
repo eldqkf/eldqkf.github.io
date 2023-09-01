@@ -24,4 +24,6 @@ HTML 문서의 규칙
 1. <!DOCTYPE html>로 시작 - 브라우저가 HTML 문서로 인지
 2. <html> ~ </html> 사이에 코드를 입력해야 함.
 3. <head> part - invisible setting
+호기심 : 정말로 invisible한 것들만 넣을 수 있을까?
+해답 : html의 문법
 4. <body> part - visible content
