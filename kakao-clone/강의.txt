@@ -18,7 +18,7 @@ self-closing tag : 닫는 tag가 없다.
 -> 없는 속성을 아무 태그에나 적용하더라도, 작동한다.
 브라우저가 이해를 못할 뿐. ex. <h1 money="good">hello</h1>
 
-#2.5 More Tage and Head
+#2.5 More Tags and Head
 
 HTML 문서의 규칙
 1. <!DOCTYPE html>로 시작 - 브라우저가 HTML 문서로 인지
@@ -30,6 +30,10 @@ HTML 문서의 규칙
 결론 : head 태그에는 invisible한 것들만 들어간다.
 4. <body> part - visible content
 
+#2.6 It's All about the Head
 <head>에는 검색 엔진에 정보를 주는 태그와 속성이 많이 있다.
 ex. <html lang="en"> : 우리 사이트는 영어를 사용해요!
 <meta property="og:img" content="http://~~~~~.jpg"> : 카카오톡에 사이트를 공유시 보이는 대표 이미지
+
+#2.7 More tags
+html, css, js 검색 시 mdn 붙이는 것 추천 - 잘 정리되어있다!
