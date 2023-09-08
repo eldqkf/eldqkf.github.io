@@ -39,3 +39,5 @@ ex. <html lang="en"> : 우리 사이트는 영어를 사용해요!
 html, css, js 검색 시 mdn 붙이는 것 추천 - 잘 정리되어있다!
 
 #2.8 Form Tags
+id : body 내 어떤 tag에도 넣을 수 있는 attribute
+고유(unique) 식별자(identifier)의 역할 (1 id for 1 element)
