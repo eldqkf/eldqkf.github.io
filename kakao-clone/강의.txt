@@ -37,3 +37,5 @@ ex. <html lang="en"> : 우리 사이트는 영어를 사용해요!
 
 #2.7 More tags
 html, css, js 검색 시 mdn 붙이는 것 추천 - 잘 정리되어있다!
+
+#2.8 Form Tags
