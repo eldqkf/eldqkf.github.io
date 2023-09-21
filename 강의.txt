@@ -41,3 +41,11 @@ html, css, js 검색 시 mdn 붙이는 것 추천 - 잘 정리되어있다!
 #2.8 Form Tags
 id : body 내 어떤 tag에도 넣을 수 있는 attribute
 고유(unique) 식별자(identifier)의 역할 (1 id for 1 tag)
+
+#2.10 Semantic HTML
+호기심 : Semantic(의미론적인) HTML이란?
+과정 : Semantic HTML.txt 참조
+결론 : 의미론적인 HTML이란, 형식보다는
+
+<div> tag : 콘텐츠를 담을 박스를 생성
+* 박스의 속성 : (기본적으로) 서로 옆에 붙어있지 않음.
