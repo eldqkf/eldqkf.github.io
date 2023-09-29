@@ -1,3 +1,6 @@
+html 태그의 기본형
+<tagname attribute="value">content</tagname>
+
 #2.4 Tag Attributes
 
 단독으로 뜻이 통하지 않는 태그는
@@ -49,3 +52,15 @@ id : body 내 어떤 tag에도 넣을 수 있는 attribute
 
 <div> tag : 콘텐츠를 담을 박스를 생성
 * 박스의 속성 : (기본적으로) 서로 옆에 붙어있지 않음.
+
+#2.11 Recap
+태그를 열었으면, 동일한 태그로 닫아줘야한다.
+
+호기심 : 다른 태그로 닫으면 어떻게 될까?
+<p>
+    <mark>thing
+</p>
+hello
+</mark>
+결과물 : thing에만 <mark> 처리가 됐다. 즉, 맛이 간 코드
+결론 : 연 태그는 (순서에 맞게) 연 태그로 닫자.
