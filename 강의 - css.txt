@@ -1,0 +1,16 @@
+#3.1 Writing Our First CSS Lines
+
+Selector (선택자) : HTML 코드를 가리킨다.
+왜? : Property (속성)을 한번에 지정하기 위해
+
+ex) Title에 [ 파란색, 12px ] 속성을 적용하고 싶다.
+Title {
+    color: blue;
+    font-size: 12px;
+}
+
+Selector {
+    property: value;
+    property: value;
+    property: value;
+}
