@@ -32,13 +32,11 @@ Cascading의 의미
 ex)
 <head>
     <link href="style.css" rel="stylesheet" />
-    (style.css의 내용 : h1 {color: blue;})
-<head>
-<body>
+/* (style.css의 내용 : h1 {color: blue;}) */
     h1 {
         color: red;
     }
-<body>
+<head>
 
 위에서 color: blue;로 지정되었지만, 아래에서 color:red가 지정되면서 최종적으로는 red로 표시를
 
