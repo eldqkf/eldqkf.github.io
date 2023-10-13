@@ -19,4 +19,28 @@ property에 대응하는 value 값을 넣어주어야 한다.
 ex) color: blue;
 (대응하지 않는 value 값을 넣더라도 에러는 아니지만, 적용되지 않는다.)
 
-#3.2 What Does Cascading Mean - Cascading Style Sheet : 단계적 적용 (위에서부터)
+#3.2 What Does Cascading Mean - Cascading Style Sheet : 위->아래 적용
+
+CSS의 적용법
+1. External : 외부 .css 파일을 적용
+2. Internal : <head>\n <style></style> \n</head>
+3. Inline : <tag css="property: value;"></tag>
+
+Cascading의 의미
+만약 같은 tag에 두 개의 selector가 존재한다면 뭐가 적용될까?
+답 : 위에서부터 적용된다.
+ex)
+<head>
+    <link href="style.css" rel="stylesheet" />
+    (style.css의 내용 : h1 {color: blue;})
+<head>
+<body>
+    h1 {
+        color: red;
+    }
+<body>
+
+위에서 color: blue;로 지정되었지만, 아래에서 color:red가 지정되면서 최종적으로는 red로 표시를
+
+어디에 응용할 수 있을까?
+위에서 조금 더 범용적인 property를 적용하고, 아래에서 필요에 따라 덧붙이자.
