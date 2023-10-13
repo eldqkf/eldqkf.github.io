@@ -3,8 +3,8 @@
 Selector (선택자) : HTML 코드를 가리킨다.
 왜? : Property (속성)을 한번에 지정하기 위해
 
-ex) Title에 [ 파란색, 12px ] 속성을 적용하고 싶다.
-Title {
+ex) h1에 [ 파란색, 12px ] 속성을 적용하고 싶다.
+h1 {
     color: blue;
     font-size: 12px;
 }
@@ -14,3 +14,9 @@ Selector {
     property: value;
     property: value;
 }
+
+property에 대응하는 value 값을 넣어주어야 한다.
+ex) color: blue;
+(대응하지 않는 value 값을 넣더라도 에러는 아니지만, 적용되지 않는다.)
+
+#3.2 What Does Cascading Mean - Cascading Style Sheet : 단계적 적용 (위에서부터)
