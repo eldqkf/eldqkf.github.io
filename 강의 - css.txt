@@ -44,3 +44,6 @@ ex)
 위에서 조금 더 범용적인 property를 적용하고, 아래에서 필요에 따라 덧붙이자.
 
 #3.3 Blocks and Inlines
+
+<div> : 옆에 아무것도 올 수 없다.
+<span> : 옆에 아무것도
