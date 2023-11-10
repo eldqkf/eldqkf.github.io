@@ -45,5 +45,9 @@ ex)
 
 #3.3 Blocks and Inlines
 
-<div> : 옆에 아무것도 올 수 없다.
-<span> : 옆에 아무것도
+Blocks : 옆에 다른 요소가 올 수 없다.
+ex) <div>
+Inlines (In the same line) : 옆에 다른 요소가 올 수 있다.
+ex) <span>
+
+깨달음 : 웹사이트 디자인은 블럭을 쌓는 것과 같다.
